@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+#todoLists {
+width: 960px;
+position: relative;
+margin:0 auto;
+line-height: 1.4em;
+}
+
+#todoLists ul{
+  margin-left: 8em;
+  margin-top:20px;
+}
+
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+@media only screen and (max-width: 479px){
+    #todoLists { width: 90%; }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
